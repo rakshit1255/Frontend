@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1024px) {
+  .hero nav {
+    display: none;
+  }
+  .hero_content {
+    margin: 0;
+  }
+  .container {
+    width: auto;
+    margin: 0 auto;
+  }
+  .feature_content{
+      padding: 0 100px;
+  }
+  .ftr_product{
+      margin: 50px 70px;
+  }
+  .about_us{
+      flex-direction: column;
+      margin: 50px 0;
+  }
+  .about_img{
+      width: 100%;
+  }
+  .about_img img{
+    width: 100%;
+    }
+    .about_content{
+        padding: 40px 30px;
+    }
+    .new_arrivel_content{
+        padding: 0 100px;
+    }
+    .new_products{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    /* .ftr_product{
+        flex-wrap: wrap;
+    } */
+    .feature_product_list{
+        width: 50%;
+        margin: 20px 0;
+    }
+    .contect_us{
+        margin: 50px 30px;
+    }
+    .cliant_says{
+        margin: 70px 30px;
+    }
+
+  .footer {
+    flex-wrap: wrap;
+    margin:0 30px
+  }
+  .footer_col_1{
+      width: 50%;
+  }
+  .footer_col_2{
+      width: 50%;
+      padding-left: 50px;
+  }
+  .footer_col_3{
+      margin-top: 40px;
+  }
+  .pre_footer_content{
+      padding:0 30px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 524px) {
+
+    .footer{
+        flex-direction: column;
+    }
+    .footer_col_2{
+        padding: 0;
+        margin-top: 40px;
+        width: auto;
+    }
+    .cliant_all{
+        flex-direction: column;
+    }
+    .cliant{
+        width: auto;
+    }
+    .contect{
+        flex-direction: column;
+    }
+    .contect_left{
+        width: auto;
+    }
+    .contect_right{
+        width: auto;
+        margin: 30px 0;
+    }
+    .new_arrivel_content{
+        padding: 0 40px;
+    }
+    .ftr_product{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .feature_content{
+        padding: 0 40px;
+    }
+    .feature_product_list{
+        width: 50%;
+    }
+    .ftr_product{
+        margin: 50px 20px;
+    }
+    .hero_bg img{
+        height: 100vh;
+    }
+    .feature{
+        margin-top: 50vh;
+    }
+    .new_products, .ftr_product{
+        width: auto;
+        flex-direction: column;
+    }
+    .new_arrivel_content{
+        padding: 0 15px;
+    }
+    .ftr_product{
+        margin: 50px 0;
+    }
+    .ftr_product{
+        align-items: center;
+    }
+    .feature_content{
+        padding: 0 15px;
+    }
+    .feature{
+        margin-top: 40px ;
+    }
+    .new_products{
+        align-items: center;
+    }
+    .pre_footer_content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .social_icon{
+        margin-top: 20px;
+    }
+
+}
